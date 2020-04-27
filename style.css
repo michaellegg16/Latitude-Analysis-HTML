@@ -1,0 +1,44 @@
+body {
+    background: #c5c5c5;
+  }
+
+.navbar {
+    background: white;
+    padding: 4px;
+}
+   
+.container {
+    background: white;
+}
+
+/* Giving our navbar some padding and a background color */
+.box a{
+    padding: 7px;
+    color: white;
+    background: #00947b;
+    
+}
+
+  /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+}
+
+.row {
+    background: white;
+    padding: 10px;
+}
+
+.table {
+    padding: 0px;
+}
