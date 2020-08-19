@@ -13,20 +13,20 @@
   
   ![landing](https://github.com/michaellegg16/Web-Design-Challenge/blob/master/Screenshots/LandingPage.png)
   
-* [visualization pages](#visualization-pages), each with:
+* [visualization pages](#visualization-pages):
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
   
   ![visualization](https://github.com/michaellegg16/Web-Design-Challenge/blob/master/Screenshots/MaxTempPage.png)
   
-* A ["Comparisons" page](#comparisons-page) that:
+* ["Comparisons" page](#comparisons-page):
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a bootstrap grid for the visualizations.
   
     ![comparisons](https://github.com/michaellegg16/Web-Design-Challenge/blob/master/Screenshots/ComparisonsPage.png)
 
-* A ["Data" page](#data-page) that:
+* ["Data" page](#data-page):
   * Displays a responsive table containing the data used in the visualizations.
     * The table must be a bootstrap table component.
     * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Use the pandas function "to-HTML"!
