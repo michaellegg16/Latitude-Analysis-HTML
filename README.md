@@ -7,13 +7,13 @@
 * Design a landing page where a comparison of each plot can be seen.
 * Design a data page where the data used to build the plots can be viewed.
 
-* [landing page](#landing-page):
+* ["Landing" page](#landing-page):
   * Include an explanation of the project.
   * Include links to each visualizations page.
   
   ![landing](https://github.com/michaellegg16/Web-Design-Challenge/blob/master/Screenshots/LandingPage.png)
   
-* [visualization pages](#visualization-pages):
+* ["Visualization" pages](#visualization-pages):
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
@@ -32,3 +32,15 @@
     * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Use the pandas function "to-HTML"!
     
   ![data](https://github.com/michaellegg16/Web-Design-Challenge/blob/master/Screenshots/DataPage.png)
+
+
+### Instructions
+
+1. If desired, the data can be viewed/analyzed using the Jupyter Notebook file.
+1. Run the HTML with a local live sever (for testing) or simply go to the website deployed at, , to see the dashboard.
+1. Use the "inspect" tool (Ctrl + alt + I) to view the HTML if desired.
+
+
+### Conclusion
+
+The actual conlcusions from the visualizations are as expected. Temperature goes down as latitude increases and vice-versa. Humidity, cloudiness, and wind speed are much less correlated to latitude, although wind speed does increase somewhat dramatically towards the highest latitudes. In the end, this project was for instructive purposes only, so that data itself is somewhat irrelevant. Personally, this was my first exposure to HTML and it has left me with mixed feelings. I also suddenly have a newfound appreciation for websites with sophisticed user interfaces. While I did find HTML to be a bit tedious, I certainly understand the need for it. This was only a glimpse into the true power of HTML/CSS and I have now designed my first visualization dashboard website!
